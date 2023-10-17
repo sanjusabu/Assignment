@@ -14,5 +14,17 @@
 
 - Add the necessary env variables in the `.env` file
 
-## Testing 
+## API
+
+### Search 
 Go to Postman and make a get request to `http://localhost:3000/api/wikipedia?query=motivate` , you can use any query to test..
+http
+
+    GET /wikipedia/?query=title
+    Checks the database if a document of this title exists, if not it searches through the wikipedia api and saves 
+    the resulting document in the collection with the title, summary and the original image.
+
+## Results
+
+![Search result on the search of Tiger](image.png)
+![Alt text](image-1.png)
