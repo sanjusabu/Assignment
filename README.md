@@ -15,4 +15,4 @@
 - Add the necessary env variables in the `.env` file
 
 ## Testing 
-Go to Postman and make a get request to `http://localhost:3000/api/wikipedia?query=motivate` , you can use any query to test.
+Go to Postman and make a get request to `http://localhost:3000/api/wikipedia?query=motivate` , you can use any query to test..
